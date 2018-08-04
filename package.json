@@ -1,0 +1,21 @@
+{
+  "name": "styled-atomism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/examples/index.html"
+  },
+  "keywords": [],
+  "author": "elcoosp <elcoosp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "polished": "^1.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
