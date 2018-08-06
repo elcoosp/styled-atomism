@@ -10,7 +10,7 @@ const Button = styled.button`
     ${p => p.theme.colors[p.color].dark};
   box-shadow: ${p => p.theme.shadows.lg} ${p => p.theme.colors[p.color].dark};
   transition: all ${p => p.theme.transitions.md};
-  outline: 0;
+
   &:hover {
     box-shadow: ${p => p.theme.shadows.lg} ${p => p.theme.colors[p.color].base};
     transition: all ${p => p.theme.transitions.lg};
