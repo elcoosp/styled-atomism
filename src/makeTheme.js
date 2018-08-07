@@ -53,6 +53,7 @@ const makeFonts = ({ fonts }) =>
 
 const makeTheme = ({
   settings,
+  spacing,
   colors: baseColors,
   borders,
   transitions,
@@ -62,7 +63,7 @@ const makeTheme = ({
   const colors = makeColors(settings)(baseColors)
   const gradients = makeGradients(settings)(colors)
   const fonts = makeFonts(settings)
-  return { colors, gradients, fonts, borders, transitions, radius, shadows }
+  return { colors, gradients, fonts, borders, transitions, spacing, radius, shadows }
 }
 
 export default makeTheme

@@ -19,6 +19,11 @@ const rawTheme = {
     md: '2px',
     lg: '4px'
   },
+  spacing: {
+    sm: '0.5rem',
+    md: '1rem',
+    lg: '1.5rem'
+  },
   transitions: {
     sm: '0.2s ease-in-out',
     md: '0.3s ease-in-out',
