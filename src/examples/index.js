@@ -3,11 +3,11 @@ import { render } from 'react-dom'
 import styled, { ThemeProvider } from 'styled-components'
 import theme from './theme'
 import Button from '../atoms/Button'
-console.log(theme)
+import Input from '../atoms/Input'
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Button color="primary">Try now</Button>
+    <Input color="primary" placeholder="Try now" />
   </ThemeProvider>
 )
 render(<App />, document.querySelector('#root'))
